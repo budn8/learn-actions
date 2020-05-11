@@ -1,0 +1,13 @@
+name: Nathan
+age: 25
+address: "dsada:dsadsa"
+active: true
+key:
+  nestedKey: nestedValue
+jsonObj: { key: value, key2: value, key3: valuuue }
+array:
+  - item2
+  - items
+  - item3
+  - { key: val }
+array2: [other]
