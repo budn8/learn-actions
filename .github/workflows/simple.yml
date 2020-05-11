@@ -19,6 +19,8 @@ jobs:
         shell: python
   run-windows-commands:
     runs-on: windows-latest
+    needs: [run-shell-command]
+    # needs is an array of job ids that need to be finished for the job to run
     steps:
       - name: Directory Powershell
         run: Get-Location
